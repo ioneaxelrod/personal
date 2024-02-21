@@ -5,7 +5,6 @@ from werkzeug.exceptions import abort
 
 RESUME_PATH = 'static/resume.pdf'
 
-
 bp = Blueprint('page', __name__)
 
 

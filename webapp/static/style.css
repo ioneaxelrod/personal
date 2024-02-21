@@ -1,1 +1,23 @@
+body {
+  background-color: #7E4564;
+  color: #E4D1C4;
+}
 
+img {
+  width: 33%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+figure {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

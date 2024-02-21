@@ -5,6 +5,15 @@
 {% endblock %}
 
 {% block content %}
+<figure>
+  <img src="{{ url_for('static', filename='me.png')}}" alt="Ione Axelrod"">
+  <figcaption>Ione Axelrod</figcaption>
+</figure>
+<article>
+  Software Engineer, Educator, Personal Cybersecurity, Entertainer
+</article>
+
+
 <ul>
   <li><a href="{{ url_for('show_resume')}}">Resume</a></li>
 <ul>
